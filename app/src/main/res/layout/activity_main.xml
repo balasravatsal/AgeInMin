@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nBGBlue"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="16dp">
+
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:text="@string/calculate_your"
+        android:textColor="#FFFDE7"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/buttonForDOB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/nOfButton"
+        android:text="@string/age"
+        android:textColor="#6D4C41"
+        android:textSize="26sp" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="80dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="25dp"-->
+<!--        android:background="@color/nOfButton"-->
+<!--        android:padding="10dp"-->
+<!--        android:text="Age"-->
+<!--        android:textAlignment="center"-->
+<!--        android:textColor="@color/white"-->
+<!--        android:textSize="26sp"-->
+<!--        android:textStyle="bold" />-->
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@android:dimen/app_icon_size"
+        android:text="Your Age is"
+        android:textColor="#FFFDE7"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="------"
+        android:textColor="#FAFAFA"
+        android:textSize="31sp" />
+
+    <TextView
+        android:id="@+id/Minutes"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/nTextYellow"
+        android:text="@string/minutes"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/SelectedDateData"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/_24_07_2003"
+        android:textColor="#FAFAFA"
+        android:textSize="31sp" />
+
+    <TextView
+        android:id="@+id/SelectedDate"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/nTextYellow"
+        android:text="@string/selected_date"
+        android:textSize="16sp" />
+
+
+
+</LinearLayout>
